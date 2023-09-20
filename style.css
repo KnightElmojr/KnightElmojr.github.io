@@ -50,3 +50,6 @@
     border-style: none;
     min-height: 60px;
   }
+  label {
+    display: block;
+  }
