@@ -103,9 +103,10 @@
 }
 .videos {
   display: flex;
-  
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 1%;
+  margin-top: 1%;
+  
 }
 .buttons {
   border-top:#000000 solid 2px;
@@ -167,3 +168,7 @@ h1{
 .childchildgrid{
   border:solid #2196F3 8px;
 }
+.gigs {
+      width: 300px;
+      margin-bottom: 1%;
+    }
