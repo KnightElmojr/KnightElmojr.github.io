@@ -18,6 +18,9 @@ input[type="text"]{
     border-width: 1px;
     border-color: blue;
 }
+li:first-child{
+    font-weight: bolder;
+}
 li:first-child, li:last-child {
     font-size: 24px;
 }
