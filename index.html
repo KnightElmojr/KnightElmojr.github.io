@@ -36,9 +36,8 @@
         <div class="rectangle-div"></div>
         <div class="home-child1"></div>
         <div class="home-child2"></div>
-        <b class="making-a-design">Лабораторна робота №5</b>
-        <b class="creating-pixel-perfect"
-          >Лабораторна робота №4</b
+        <a class="making-a-design" href="">Лабораторна робота №5</a>
+        <a class="creating-pixel-perfect" href ="topnav/lwork/lw4/lab4.html">Лабораторна робота №4</a
         >
         <div class="design-pattern">Web, HTML, CSS</div>
         <div class="figma-icon-design">Web, HTML, CSS</div>
@@ -73,8 +72,8 @@
           </div>
         </div>
         <a class="designing-dashboards" href=" https://maks245.github.io/web_technologys/">Palamarchuk Maksym</a>
-        <a class="vibrant-portraits-of" href="https://oneclassick15.github.io/webtech_tcr/">Belyaev Danylo</a>
-        <a class="days-of-malayalam" href="https://feshchenko1.github.io/WEB/index.html">Feschenko Bogdan</a>
+        <a class="vibrant-portraits-of" href="https://oneclassick15.github.io/webtech_tcr/">Bieliaiev Danylo</a>
+        <a class="days-of-malayalam" href="https://feshchenko1.github.io/WEB/index.html">Feshchenko Bogdan</a>
         <div class="dashboard">QA Engineer</div>
         <div class="illustration">Front-end Developer</div>
         <div class="typography">Front-end Developer</div>
@@ -119,6 +118,22 @@
             // Please sync "Blog" to the project
           });
         }
+        </script>
+        <script>
+          document.querySelector('.home-item').addEventListener('mouseover', function () {
+          this.classList.add('hovered');
+          });
+
+          document.querySelector('.home-item').addEventListener('mouseout', function () {
+          this.classList.remove('hovered');
+          });
+          document.querySelector('.download-resume').addEventListener('mouseover', function () {
+          document.querySelector(".home-item").classList.add('hovered');
+          });
+
+          document.querySelector('.download-resume').addEventListener('mouseout', function () {
+          document.querySelector(".home-item").classList.remove('hovered');
+          });
         </script>
     </body>
 

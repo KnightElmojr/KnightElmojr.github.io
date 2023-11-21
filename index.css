@@ -46,9 +46,24 @@ a {text-decoration: none;}
   top: 377px;
   left: 29.5%;
   border-radius: 2px;
-  background-color: var(--primary);
+  background: #3acae3;
+  border: 1px solid #1fbeda;
+  box-shadow: 0px 2px 0 #1fc1d6, 2px 4px 6px #24e0d0;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
   width: 15%;
   height: 2.5%;
+  
+}
+.home-item.hovered {
+  background: #26cae0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  color: #7de4ec;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #1cb7c2;
+  transition: all 250ms linear;
 }
 .hi-i-am {
   margin: 0;
@@ -72,6 +87,8 @@ a {text-decoration: none;}
   height: 66px;
 }
 .download-resume {
+  
+  pointer-events : auto;
   position: absolute;
   font-size: var(--font-size-xl);
   font-weight: 500;
@@ -196,6 +213,9 @@ a {text-decoration: none;}
   display: inline-block;
   width: 120x;
   height: 20px;
+}
+.view-all:hover{
+  text-decoration: underline;
 }
 .featured-works {
   position: absolute;
@@ -376,6 +396,20 @@ a {text-decoration: none;}
 .home-child11 {
   top: 1460px;
   height: 184px;
+}
+.designing-dashboards:visited,
+.vibrant-portraits-of:visited,
+.days-of-malayalam:visited,
+.creating-pixel-perfect:visited,
+.making-a-design:visited{
+  color:#000;
+}
+.designing-dashboards:hover,
+.vibrant-portraits-of:hover,
+.days-of-malayalam:hover,
+.creating-pixel-perfect:hover,
+.making-a-design:hover{
+  color:#13b8dd;
 }
 .home {
   position: relative;
