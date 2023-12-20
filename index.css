@@ -1,6 +1,6 @@
 @media only screen and (min-width: 360px) {
   .topnav a {
-    width: 40%;
+    width: 15%;
     height: 40px;
   }
   body {
@@ -144,6 +144,10 @@
 .home-child2 {
   left: 5%;
   top: 1100px;
+}
+.creating-pixel-perfect,
+.design-pattern{
+  color:#000;
 }
 .creating-pixel-perfect,
 .design-pattern,
@@ -295,6 +299,7 @@
   top: 1762px;
   left: 10%;
   font-size: 21px;
+  color:#000;
 }
 .days-of-malayalam,
 .vibrant-portraits-of {
